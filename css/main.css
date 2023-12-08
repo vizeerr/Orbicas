@@ -249,6 +249,8 @@ p{
     padding: 5px;
     border-radius: 10px;
     transition: 0.1s ease-in;
+    cursor: pointer;
+    margin: 10px 0;
   }
 
   .mdtb:hover{
