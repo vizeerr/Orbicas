@@ -227,6 +227,11 @@ p{
     
   }
 
+  .fs-9{
+    font-size: 12px !important;
+    width: 100% !important;
+  }
+
   .des{
     height: 65vh;
   }
@@ -235,6 +240,33 @@ p{
     transition: 0.1s ease-in;
     border-radius: 5px;
   }
+
+  .modal{
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+  .mdtb{
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.1s ease-in;
+  }
+
+  .mdtb:hover{
+    background: #ececec;
+  }
+  .modal-dialog {
+    max-width: 44% !important;
+    margin-top: 7em;
+    
+  }
+  .modal{
+    
+  }
+
+  .modal-content{
+    border-radius: 20px !important;
+  }
+
   .des li a{
     text-decoration: none;
     color: #fff;
