@@ -112,6 +112,12 @@ p{
     background: #000;
 
   }
+  .clip-caption img{
+    transition: 0.1s ease-in;
+  }
+  .clip-each:hover .clip-caption img{
+    filter: invert(1);
+  }
 
   .item:hover{
     background: #070707;
