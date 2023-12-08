@@ -278,6 +278,10 @@ p{
   background: #000;
 }
 
+.rohmb{
+  display: none;
+}
+
   @media only screen and (max-width: 1025px) {
     .boxs{
       width: 45% !important;
@@ -317,6 +321,9 @@ p{
     }
     .rohm{
       display: none !important;
+    }
+    .rohmb{
+      display: block;
     }
     .rom .slick-slide{
       height: 280px !important;
