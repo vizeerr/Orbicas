@@ -217,15 +217,20 @@ p{
     
   }
 
+  .des{
+    height: 65vh;
+  }
   .des li {
     list-style: none;
+    transition: 0.1s ease-in;
+    border-radius: 5px;
   }
   .des li a{
     text-decoration: none;
     color: #fff;
     font-size: 14px;
     display: flex;
-    margin-top: 15px;
+    padding: 10px;
     align-items: center;
     gap: 10px;
   }
@@ -256,12 +261,13 @@ p{
   }
 
   .text-secondary{
-    color: rgb(185 185 185) !important;
+    color: rgb(255, 255, 255) !important;
   }
 
   .sd{
     width: 30% !important;
   }
+
 
   
   
@@ -282,6 +288,50 @@ p{
   display: none;
 }
 
+.dropdown-item:hover{
+  background: #1e1e1e;
+}
+.whbtn{
+  border: 2px solid #fff !important;
+}
+.whbtn:hover{
+  background: #161616 !important;
+  color: #fff !important;
+}
+.whbtn img{
+  transition: 0.1s ease-in;
+}
+.whbtn:hover img{
+  filter: invert(1) !important;
+}
+
+.btnsec:hover{
+  background: #1d1d1d !important;
+  color: #fff !important;
+  border: 2px solid #fff !important;
+}
+
+.des ul li:hover{
+  background: #1d1d1d ;
+}
+
+.navwh{
+  width: 300px;
+}
+
+.navwhmb{
+  display: none;
+}
+
+@media only screen and (max-width: 989px) {
+  
+.navwhmb{
+  display: block;
+}
+.navwhpc{
+  display: none;
+}
+}
   @media only screen and (max-width: 1025px) {
     .boxs{
       width: 45% !important;
@@ -347,7 +397,9 @@ p{
   }
 
   @media only screen and (max-width: 769px) {
-
+    .des{
+      height: auto;
+    }
     .headbtn{
       width: 40% !important;
     }
@@ -365,9 +417,29 @@ p{
     .sd{
       width: 70% !important;
     }
+    .des .row{
+      flex-direction: column;
+    }
+    .des .col-2, .des .col{
+      width: 100%;
+    }
+    
+    .des .col-2 ul{
+      display: flex;
+      gap:2rem;
+    }
+    .bore {
+      width: 100%;
+  }
   }
 
   @media only screen and (max-width: 426px) {
+    .bore {
+      padding: 30px;
+  }
+  .swp{
+    flex-direction: column;
+  }
     .ngd{
       flex-direction: column;
     }
