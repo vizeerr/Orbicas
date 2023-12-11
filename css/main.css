@@ -439,10 +439,21 @@ p{
   }
   .bore{
     width: 90%;
+  } 
+
+  .modal-body .col,.modal-body .col-8{
+    /* display: flex; */
+    /* flex-direction: row !important; */
+    width: 100%;
   }
+  
   }
 
   @media only screen and (max-width: 769px) {
+    .modal-dialog {
+      max-width: 60% !important;
+
+    }
     .des{
       height: auto;
     }
@@ -480,6 +491,10 @@ p{
   }
 
   @media only screen and (max-width: 426px) {
+    .modal-dialog {
+      max-width: 100% !important;
+
+    }
     .bore {
       padding: 30px;
   }
